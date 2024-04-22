@@ -1,0 +1,7 @@
+specVersion: "3.2"
+metadata:
+  name: testing
+type: application
+framework:
+  name: OpenUI5
+  version: "1.122.1"

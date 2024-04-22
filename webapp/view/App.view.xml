@@ -1,0 +1,28 @@
+<!-- Main View with properties -->
+<mvc:View
+    controllerName="sap.ui.demo.testingPackage.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true">
+
+    <!-- Shell Container -->
+    <Shell>
+        <!-- App -->
+        <App class="myAppDemoWT">
+            <!-- Pages -->
+            <pages>
+                <!-- Home page -->
+                <Page title="{i18n>homePageTitle}">
+                    <content>
+                        
+                        <mvc:XMLView 
+                            type="XML"
+                            viewName="sap.ui.demo.testingPackage.view.Button"
+                        />
+
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

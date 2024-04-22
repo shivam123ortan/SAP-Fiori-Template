@@ -1,0 +1,11 @@
+<mvc:View
+    controllerName="sap.ui.demo.testingPackage.controller.Button"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+
+    
+    <Button 
+        text="{i18n>componentButton}"
+    />
+
+</mvc:View>
